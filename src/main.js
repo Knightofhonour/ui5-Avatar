@@ -14,5 +14,4 @@ button.addEventListener("click", function() {
     document.body.appendChild(container);
     const elementRendered = ReactDOM.render(element,container);
     elementRendered.setAttribute('image', 'https://avatars.wdf.sap.corp/avatar/I062387');
-    //elementRendered.setAttribute('src', '/Users/i531719/Desktop/TRYING/sdk/webclient/WebClient/src/App_Resources/map_icon.png');
 });
